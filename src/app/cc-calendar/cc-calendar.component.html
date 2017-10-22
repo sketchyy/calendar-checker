@@ -8,7 +8,7 @@
       [yearNavigator]="true"
       yearRange="2000:2030"
       [inline]="true"
-      (onSelect)="onSelection($event)"
+      (onSelect)="onSelection()"
     >
       <ng-template pTemplate="date" let-date>
         <cc-calendar-cell [date]="date" (click)="onCellClick(date)">

@@ -9,8 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:gh": "ng build --prod --base-href \"https://USERNAME.github.io/REPOSITORY_NAME/\"",
-    "publish": "angular-cli-ghpages [OPTIONS]"
+    "build:gh": "ng build --prod --base-href \"https://sketchyy.github.io/calendar-checker/\"",
+    "publish": "ngh"
   },
   "private": true,
   "dependencies": {
