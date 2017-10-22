@@ -1,0 +1,19 @@
+<div class="ui-g">
+  <div class="ui-g-1"></div>
+  <div class="ui-g-10">
+    <p-calendar
+      [(ngModel)]="dates"
+      selectionMode="multiple"
+      [monthNavigator]="true"
+      [yearNavigator]="true"
+      yearRange="2000:2030"
+      [inline]="true"
+      (onSelect)="onSelection($event)"
+    >
+      <ng-template pTemplate="date" let-date>
+        <cc-calendar-cell [date]="date" (click)="onCellClick(date)">
+        </cc-calendar-cell>
+      </ng-template>
+    </p-calendar>
+  </div>
+</div>

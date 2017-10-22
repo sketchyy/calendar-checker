@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('calendar-checker App', () => {
+describe('cc-calendar-checker App', () => {
   let page: AppPage;
 
   beforeEach(() => {
