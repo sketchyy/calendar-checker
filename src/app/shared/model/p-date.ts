@@ -4,4 +4,8 @@ export interface PDate {
   year: number;
   today: boolean;
   selectable: boolean;
+
+  /* Props for this App */
+  selected: boolean;
+  disabled: boolean;
 }
