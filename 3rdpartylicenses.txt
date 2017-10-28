@@ -95,6 +95,10 @@ THE SOFTWARE.
 MIT
 MIT
 
+@angular/router@4.4.6
+MIT
+MIT
+
 @angular/animations@4.4.6
 MIT
 MIT
